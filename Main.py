@@ -90,6 +90,16 @@ def execute(change):
 button=0
 
 #Classifier
+import os.path
+from os import path
+import pandas as pd
+df_name = 'ai_coach_data_1.csv'
+df_name_start = 'ai_coach_data_'
+df_name_end = '.csv'
+while path.exists(df_name):
+  file_num = int(df_name[14:-4])
+  new_file_num = file_num + 1
+  df_name = df_name_start+str(new_file_num)+df_name_end
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BOARD)
