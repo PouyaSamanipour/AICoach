@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/aicoach/trt_pose/tasks/human_pose
+python3 Main.py
