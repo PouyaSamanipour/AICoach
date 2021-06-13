@@ -1,0 +1,14 @@
+Unit]
+Description=test: blink LEDs on startp
+After=multi-user.target
+
+[Service]
+User=aicoach
+ExecStart=/usr/local/bin/test.sh
+Restart=no
+StartLimitInterval=1
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
