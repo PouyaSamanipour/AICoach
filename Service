@@ -1,4 +1,4 @@
-Unit]
+[Unit]
 Description=test: blink LEDs on startp
 After=multi-user.target
 
