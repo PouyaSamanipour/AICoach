@@ -67,6 +67,9 @@ from trt_pose.parse_objects import ParseObjects
 parse_objects = ParseObjects(topology)
 draw_objects = DrawObjects(topology)
 
+import os
+command = 'sudo -S systemctl restartnvargus-daemon' #This is how you invoke any command
+os.system('echo %s' % (command))
 ###
 #from jetcam.usb_camera import USBCamera
 from jetcam.csi_camera import CSICamera
