@@ -8,7 +8,6 @@
 
 ![AI Coach Device](AI_Coach.jpg)
 
-> *AI Coach prototype running on Jetson Nano with a camera. Image will appear here once added to `media/device_photo.jpg`.*
 
 <!-- Alternative with size control -->
 <!-- <img src="media/device_photo.jpg" alt="AI Coach Device" width="500"/> -->
